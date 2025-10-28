@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
-// Force rebuild for static export
 const nextConfig = {
   output: 'export',
+  trailingSlash: true,
   eslint: {
     ignoreDuringBuilds: true,
   },
